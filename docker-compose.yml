@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   radarr:
-    image: yogarine/radar:${RADARR_VERSION}
+    image: yogarine/radarr:${RADARR_VERSION}
     build:
       context: .
       target: radarr
